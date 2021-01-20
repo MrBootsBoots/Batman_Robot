@@ -13,7 +13,7 @@ Don't Forget about [HarukaAya](https://t.me/HarukaAyaBot) Maded with love via Re
 # Credits
 
 Bot Maded Via Our Devs - [Joseph](https://t.me/Joseph_Frank) & [Edwin McCoy](https://t.me/mccoyeddy).
-[Bot Owner](https://t.me/I_Am_An_PRINCES)!
+Meet My Bot Owner - [Bot Owner](https://t.me/I_Am_An_PRINCES)!
 
 thanks for now! 
 
