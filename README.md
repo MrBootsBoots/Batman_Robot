@@ -33,3 +33,22 @@ Final step go and deploy it via button given below;
 NOTE - Any Changes in Readme File cause you more harm. Bcs Readme Content is important that our devs can carry on for your req!
 ```
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrBootsBoots/Batman_Robot.git)
+
+```
+If any of you face problems in open source codes 
+OR
+Anyother problem check out that what is official
+~~Don't Belive On Other's Group Saying they are official~~
+So our Official Support
+- @DragonAssociationSupport
+OR
+- https://t.me/DragonAssociationSupport
+So our Official Updates Channel
+- @DragonUpdates
+OR
+- https://t.me/DragonUpdatess
+We don't ask for money by dm/pm to you if anyone says like that don't do that
+Our Donations ACC are feeded in BOT if you want don't trust other person by leaving admins in our support chat
+That's why we added a cmd of /donate or !donate if  you want that you are donating us to secured place!
+Thanks!!!
+```
