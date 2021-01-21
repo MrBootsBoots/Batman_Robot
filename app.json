@@ -1,6 +1,7 @@
+
 {
-  "name": "Batman_Robot",
-  "description": "Telegram's Best group manager. Modular Telegram group management bot!",
+  "name": "Batman",
+  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "keywords": [
     "telegram",
     "best",
@@ -20,11 +21,11 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "ID"
+      "value": ""
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "i_Am_An_Princess"
+      "value": "I_Am_An_Princes"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -36,23 +37,27 @@
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "value": "-100123456"
+      "value": "-1007777777777"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "13*****"
+      "value": ""
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "13*****"
+      "value": ""
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "13*****"
+      "value": ""
+    },
+    "DONATION_LINK": {
+      "description": "Optional: link where you would like to receive donations.",
+      "value": "https://"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
-      "value": "5000"
+      "value": "8443"
     },
     "DEL_CMDS": {
       "description": "Whether to delete commands from users which don't have rights to use that command",
@@ -68,14 +73,14 @@
     },
     "BAN_STICKER": {
       "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
-      "value": "CAADBQADfgADttzjKJWTC3CM9l78FgQ"
+      "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
     }
   },
   "addons": [
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "9.5"
+        "version": "10"
       }
     }
   ]
