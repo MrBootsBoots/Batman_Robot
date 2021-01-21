@@ -22,6 +22,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hi {}, my name is {}!
 
+Maded With ♥ by - [Joseph](https://t.me/Joseph_Frank)
+
 You can find the list of available commands with /help.
 """
 
