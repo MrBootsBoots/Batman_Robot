@@ -50,5 +50,6 @@ OR
 We don't ask for money by dm/pm to you if anyone says like that don't do that
 Our Donations ACC are feeded in BOT if you want don't trust other person by leaving admins in our support chat
 That's why we added a cmd of /donate or !donate if  you want that you are donating us to secured place!
+BatMan Bot - @BatMan_Robot
 Thanks!!!
 ```
