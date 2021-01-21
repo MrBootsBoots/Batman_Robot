@@ -26,7 +26,7 @@ Click Help button to find out more about how to use me to my full potential.
 
 Join My Support Group [Support](http://t.me/DragonAssociationSupport) if you need any support or help.
 
-Don't Forget To CheckOut [SpiderMan](http://t.me/Ba) 
+Don't Forget To CheckOut [Updates](http://t.me/DragonUpdates) 
 
 Want to add me to your group? Click here! [Click Here](http://t.me/Batman_Robot?startgroup=true)
 """
