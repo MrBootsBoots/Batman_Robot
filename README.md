@@ -62,7 +62,8 @@ Remarked By [Owner](https://t.me/i_am_an_princes)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/MrBootsBoots/)</br>
 
-# [Licence](https://drive.google.com/file/d/1CRvDCfL19qxO_CUqrz4uEgPXX2gnN5_O/view)
+<details>
+  <summary>[Licence](https://drive.google.com/file/d/1CRvDCfL19qxO_CUqrz4uEgPXX2gnN5_O/view)</summary>
 ```
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
@@ -739,3 +740,5 @@ the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 ```
+```
+</deatils>
