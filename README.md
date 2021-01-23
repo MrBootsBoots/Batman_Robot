@@ -58,3 +58,8 @@ Thanks!!!
 ```
 
 Remarked By [Owner](https://t.me/i_am_an_princes)
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/MrBootsBoots/)</br>
+
+[Don't Forget to read about licence](https://drive.google.com/file/d/1CRvDCfL19qxO_CUqrz4uEgPXX2gnN5_O/view)
