@@ -71,9 +71,9 @@
       "description": "Whether to allow using exclamation marks ! for commands as well as /.",
       "value": "True"
     },
-    "AI_API_KEY": {
-      "description": "Get AI_API_KEY from coffeehouse",
-      "value": ""
+    "BAN_STICKER": {
+      "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
+      "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
     },
   "addons": [
     {
