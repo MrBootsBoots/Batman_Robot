@@ -76,6 +76,12 @@
       "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
     }
   },
+    },
+    "AI_API_KEY": {
+      "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
+      "value": ""
+    }
+  },
   "addons": [
     {
       "plan": "heroku-postgresql",
