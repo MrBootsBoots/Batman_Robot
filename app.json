@@ -71,15 +71,10 @@
       "description": "Whether to allow using exclamation marks ! for commands as well as /.",
       "value": "True"
     },
-    "BAN_STICKER": {
-      "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
-      "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
-    },
     "AI_API_KEY": {
-      "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
+      "description": "Get AI_API_KEY from coffeehouse",
       "value": ""
-    }
-  }
+    },
   "addons": [
     {
       "plan": "heroku-postgresql",
