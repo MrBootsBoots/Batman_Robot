@@ -23,4 +23,4 @@ class Development(Config):
     SUPPORT_USERS = 1399308798 # A space separated list of user IDs who you wanna assign as support users(gban perms only).
     ALLOW_EXCL = True
     SUPPORT_CHAT = DragonAssociationSupport
-    WALL_API = 
+    WALL_API = '75de53c034d94bba532321b4fcbb4943'
