@@ -15,4 +15,4 @@ class Development(Config):
     INFOPIC = 'True'
     WHITELIST_USERS = 
     log = True
-    
+    STRICT_GMUTE = True    
