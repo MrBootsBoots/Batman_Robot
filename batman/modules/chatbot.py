@@ -59,7 +59,7 @@ def remove_chat(update: Update, context: CallbackContext):
     user = update.effective_user
     is_chat = sql.is_chat(chat.id)
     if not is_chat:
-        msg.reply_text("AI isn't enabled here in the first place!")
+        msg.reply_text("AI isn't enabled here in this place!")
         return ""
     else:
         sql.rem_chat(chat.id)
@@ -144,8 +144,8 @@ Chatbot utilizes the CoffeeHouse API and allows Saitama to talk and provides a m
 Reports bugs at @{SUPPORT_CHAT}; Contact @{SUPPORT_CHAT} for enabling AI
 """
 
-ADD_CHAT_HANDLER = CommandHandler("addchat", add_chat)
-REMOVE_CHAT_HANDLER = CommandHandler("rmchat", remove_chat)
+ADD_CHAT_HANDLER = CommandHandler("enable_ai", add_chat)
+REMOVE_CHAT_HANDLER = CommandHandler("disable_ai", remove_chat)
 CHATBOT_HANDLER = MessageHandler(
     Filters.text & (~Filters.regex(r"^#[^\s]+") & ~Filters.regex(r"^!")
                     & ~Filters.regex(r"^\/")), chatbot)
