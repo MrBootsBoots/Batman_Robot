@@ -16,7 +16,7 @@ from telegram.ext import (CallbackContext, CommandHandler, Filters,
                           MessageHandler, run_async)
 from telegram.utils.helpers import mention_html
 
-CoffeeHouseAPI = API('4d12b1129a21dcd4d828b128bd28df83253865a8b9c8b0926037db9614720118d88b5082deed4afd444abb26e581cef44ab840e613dcd14aa358a7185895c9b3')
+CoffeeHouseAPI = API(AI_API_KEY)
 api_client = LydiaAI(CoffeeHouseAPI)
 
 
