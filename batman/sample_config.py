@@ -33,7 +33,7 @@ class Config(object):
     STRICT_GBAN = False
     WORKERS = 8  # Number of subthreads to use. This is the recommended amount - see for yourself what works best!
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'  # banhammer marie sticker
-    ALLOW_EXCL = False  # Allow ! commands as well as /
+    ALLOW_EXCL = True  # Allow ! commands as well as /
     STRICT_GMUTE = True
     STRICT_GBAN = True
     WALL_API = '75de53c034d94bba532321b4fcbb4943'
