@@ -96,17 +96,17 @@
       },
       "SUPPORT_USERS": {
          "description": "Get id of your user via @showjsonbot"
-         "required": false
+         "required": false,
          "value": ""
       },
       "SUDO_USERS": {
          "description": "Get id of your user via @showjsonbot"
-         "required": true
+         "required": true,
          "value": ""
       },
       "WALL_API": {
          "description": "Get api from acoder"
-         "required": false
+         "required": false,
          "value": ""
       },
       "DEL_CMDS": {
