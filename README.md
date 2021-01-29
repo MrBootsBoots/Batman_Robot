@@ -34,27 +34,27 @@ Step 4 - Have a donation Link of any payment method i.e, PayPal, Skill & ETC
 Final step go and deploy it via button given below;
 NOTE - Any Changes in Readme File cause you more harm. Bcs Readme Content is important that our devs can carry on for your req!
 ```
-Deploy will face issue now bcs we are making it more harder that our bot users can gain good perfomance by our bot...
+~Deploy will face issue now bcs we are making it more harder that our bot users can gain good perfomance by our bot...
 
-Go to [heroku](https://heroku.com/)
+-_Go to [heroku](https://heroku.com/)_
 
-Create a account via your personal gmail acc.
+-_Create a account via your personal gmail acc._
 
-Tap New
+-_Tap New_
 
-Tap Create a [new app](https://dashboard.heroku.com/new-app)
+-_Tap Create a [new app](https://dashboard.heroku.com/new-app)_
 
-Choose a name regards your new bot.
+-_Choose a name regards your new bot._
 
-Next Step...
+__Next Step...__
 
-Tap Create App
+-_Tap Create App_
 
-Fork [this repo](https://github.com/Mrbootsboots/Batman_Robot)
+-_Fork [this repo](https://github.com/Mrbootsboots/Batman_Robot)_
 
-Link your heroku app to repo via [github](https://github.com)
+-_Link your heroku app to repo via [github](https://github.com)_
 
-BeepBoop For more instruction Join [SUPPORT_CHAT](https://t.me/dragonassociationsupport)
+*BeepBoop For more instruction Join [SUPPORT_CHAT](https://t.me/dragonassociationsupport)*
 
 ```
 If any of you face problems in open source codes 
