@@ -53,13 +53,13 @@
          "required": true,
          "value": "DragonAssociationSupport"
       },
-      "EVENT_LOGS": {
-         "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+      "INFOPIC": {
+         "description": "Show infopic",
          "required": true,
-         "value": "-123456798"
+         "value": "True"
       },
-      "JOIN_LOGGER": {
-         "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
+      "MESSAGE_DUMPER": {
+         "description": "A message dumping place for bot.",
          "required": true,
          "value": "-123456798"
       },      
@@ -85,7 +85,7 @@
       "PORT": {
          "description": "Port to use for your webhooks. Better leave this as it is on heroku",
          "required": false,
-         "value": ""
+         "value": "8849"
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
