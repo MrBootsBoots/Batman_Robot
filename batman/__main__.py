@@ -3,7 +3,6 @@ import importlib
 import re
 from typing import Optional, List
 
-from pyrogram import idle
 from telegram import Message, Chat, Update, Bot, User
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.error import Unauthorized, BadRequest, TimedOut, NetworkError, ChatMigrated, TelegramError
