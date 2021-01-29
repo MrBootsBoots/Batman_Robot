@@ -13,7 +13,7 @@ class Development(Config):
     NO_LOAD = ['sed']
     AI_API_KEY = '4d12b1129a21dcd4d828b128bd28df83253865a8b9c8b0926037db9614720118d88b5082deed4afd444abb26e581cef44ab840e613dcd14aa358a7185895c9b3' #ai api key by intellivoid
     INFOPIC = 'True'
-    WHITELIST_USERS = [1229419906, 1358136299, 784606914, 1368562787] #Users Cannot be banned via your bot.
+    WHITELIST_USERS = ['1229419906, 1358136299, 784606914, 1368562787'] #Users Cannot be banned via your bot.
     STRICT_GMUTE = 'True'  
     STRICT_GBAN = 'True'
     WORKERS = '6'
