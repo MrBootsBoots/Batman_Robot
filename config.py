@@ -18,3 +18,6 @@ class Development(Config):
     STRICT_GBAN = True
     WORKERS = 6
     URL = https://batman-robot.herokuapp.com/
+    ENV = ANYTHING
+    PORT = 8443
+    SUPPORT_USERS = #A space separated list of user IDs who you wanna assign as support users(gban perms only).
