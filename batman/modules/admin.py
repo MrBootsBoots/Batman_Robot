@@ -9,7 +9,6 @@ from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown, mention_html
 
 from batman import dispatcher
-from batman.modules.disable import DisableAbleCommandHandler
 from batman.modules.helper_funcs.chat_status import bot_admin, can_promote, user_admin, can_pin
 from batman.modules.helper_funcs.extraction import extract_user
 from batman.modules.log_channel import loggable
