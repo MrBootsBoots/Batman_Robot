@@ -1,4 +1,4 @@
-# Batman_RobotR
+# Batman_Robot
 A telegram managing robot
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green) [![Join Support!](https://img.shields.io/badge/Support%20Chat-Dragon-red)](https://t.me/DragonAssociationSupport) ![Repo Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/MrHonekawa/BatmanRobot/&title=Repo%20Views)
