@@ -23,8 +23,7 @@ PM_START_TEXT = """
 hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
 im a group manager bot maintained by  [this person](tg://user?id={}).
 My future updates will be put into This Channel - [Channel](https://t.me/DragonUpdates) & My [Support Group](https://t.me/DragonAssociationSupport).
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
-you can create clone same like me.. [My Repo](https://t.me/MrBootsBoots/Batman_Robot)
+You can create clone same like me.. [My Repo](https://t.me/MrBootsBoots/Batman_Robot)
 For more commands click /help...
 **Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
 """
