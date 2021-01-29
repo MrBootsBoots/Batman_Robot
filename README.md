@@ -1,6 +1,7 @@
 # Batman_Robot
 A telegram managing robot
-![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green) [![Join Support!](https://img.shields.io/badge/Support%20Chat-Dragon-red)](https://t.me/DragonAssociationSupport) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cfb691a93a064d9ea753ef2b5fccf797)](https://www.codacy.com/manual/MrHonekawa/Batman_Robot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MrHonekawa/Batman_Robot&amp;utm_campaign=Badge_Grade)
+
+![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green) [![Join Support!](https://img.shields.io/badge/Support%20Chat-Dragon-red)](https://t.me/DragonAssociationSupport)
 
 *[BatMan](https://t.me/BatMan_Robot) is a python3 robot running on own database!*
 
