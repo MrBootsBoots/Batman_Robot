@@ -1,6 +1,6 @@
 import threading
 
-from batman.modules.sql.disable_sql import BASE, SESSION
+from batman.modules.sql import BASE
 from sqlalchemy import Column, String, UnicodeText, distinct, func
 
 
