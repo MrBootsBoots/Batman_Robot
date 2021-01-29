@@ -74,7 +74,7 @@ def remove_chat(update: Update, context: CallbackContext):
 
 def check_message(context: CallbackContext, message):
     reply_msg = message.reply_to_message
-    if message.text.lower() == "saitama":
+    if message.text.lower() == "batman":
         return True
     if reply_msg:
         if reply_msg.from_user.id == context.bot.get_me().id:
@@ -136,7 +136,7 @@ def list_chatbot_chats(update: Update, context: CallbackContext):
 
 
 __help__ = f"""
-Chatbot utilizes the CoffeeHouse API and allows Saitama to talk and provides a more interactive group chat experience.
+Chatbot utilizes the CoffeeHouse API and allows me to talk and provides a more interactive group chat experience.
 *Commands:* 
 *Admins only:*
  • `/addchat`*:* Enables Chatbot mode in the chat.
