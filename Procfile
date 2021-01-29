@@ -1,1 +1,1 @@
-web: python3.6 -m batman
+web: python3 -m batman
