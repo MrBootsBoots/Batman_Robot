@@ -4,8 +4,6 @@ from typing import Optional
 from telegram import User, Chat, ChatMember, Update, Bot
 
 from batman import DEL_CMDS, SUDO_USERS, WHITELIST_USERS
-import batman.modules.sql.admin_sql as admin_sql
-from batman.modules.translations.strings import tld
 
 
 def can_delete(chat: Chat, bot_id: int) -> bool:
@@ -113,7 +111,6 @@ def user_admin(func):
     @wraps(func)
     def is_admin(bot: Bot, update: Update, *args, **kwargs):
         user = update.effective_user  # type: Optional[User]
-        chat = update.effective_chat  # type: Optional[Chat]
         if user and is_user_admin(update.effective_chat, user.id):
             return func(bot, update, *args, **kwargs)
 
@@ -123,7 +120,7 @@ def user_admin(func):
         elif DEL_CMDS and " " not in update.effective_message.text:
             update.effective_message.delete()
 
-        elif (admin_sql.command_reaction(chat.id) == True):
+        else:
             update.effective_message.reply_text("Who dis non-admin telling me what to do?")
 
     return is_admin
