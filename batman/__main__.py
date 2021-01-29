@@ -20,7 +20,7 @@ from batman.modules.helper_funcs.chat_status import is_user_admin
 from batman.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+Hello {}, my name is {}! if you have any questions about how to use me please give me /help... 
 im a group manager bot maintained by  [this person](tg://user?id={}).
 My future updates will be put into This Channel - [Channel](https://t.me/DragonUpdates) & My [Support Group](https://t.me/DragonAssociationSupport).
 You can create clone same like me.. [My Repo](https://t.me/MrBootsBoots/Batman_Robot)
