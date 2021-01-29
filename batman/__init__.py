@@ -100,6 +100,7 @@ else:
     BAN_STICKER = Config.BAN_STICKER
     ALLOW_EXCL = Config.ALLOW_EXCL
     STRICT_GMUTE = Config.STRICT_GMUTE
+    WALL_API = Config.WALL_API
    
 
 SUDO_USERS.add(OWNER_ID)
