@@ -31,3 +31,4 @@ tswift
 PickleDB
 youtube-dl
 fontTools
+pyrogram
