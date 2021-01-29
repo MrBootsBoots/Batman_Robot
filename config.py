@@ -10,8 +10,9 @@ class Development(Config):
     USE_MESSAGE_DUMP = True
     SUDO_USERS = [18673980, 83489514]  # List of id's for users which have sudo access to the bot.
     LOAD = []
-    NO_LOAD = ['translation']
+    NO_LOAD = ['sed']
     AI_API_KEY = "AI_API_KEY get from coffeehouse.intellivoid.net" #ai api key by intellivoid
-    INFOPIC = True
+    INFOPIC = 'True'
     WHITELIST_USERS = 
+    log = True
     
