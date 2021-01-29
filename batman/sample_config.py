@@ -36,6 +36,7 @@ class Config(object):
     ALLOW_EXCL = False  # Allow ! commands as well as /
     STRICT_GMUTE = True
     STRICT_GBAN = True
+    WALL_API = '75de53c034d94bba532321b4fcbb4943'
 
 class Production(Config):
     LOGGER = False
