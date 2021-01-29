@@ -58,7 +58,7 @@
          "required": true,
          "value": "True"
       },
-      "MESSAGE_DUMPER": {
+      "MESSAGE_DUMP": {
          "description": "A message dumping place for bot.",
          "required": true,
          "value": "-123456798"
