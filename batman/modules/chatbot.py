@@ -1,5 +1,5 @@
 import html
-# AI module using Intellivoid's Coffeehouse API by @TheRealPhoenix
+# AI module using Intellivoid's Coffeehouse API by @FaucetMaker
 from time import sleep, time
 
 import batman.modules.sql.chatbot_sql as sql
@@ -16,7 +16,7 @@ from telegram.ext import (CallbackContext, CommandHandler, Filters,
                           MessageHandler, run_async)
 from telegram.utils.helpers import mention_html
 
-CoffeeHouseAPI = API(AI_API_KEY)
+CoffeeHouseAPI = API(78551c0e3dfb8b4a190e387e165dadbf20452920ad343ff5df08d8ea2943b1ad4d9a9459e8279f0830f4ca6fd97c047094a59b63ad97f4895561a87f4d4b8c3b)
 api_client = LydiaAI(CoffeeHouseAPI)
 
 
