@@ -3,7 +3,7 @@ import threading
 from sqlalchemy import Column, Integer, UnicodeText, String, ForeignKey, UniqueConstraint, func
 
 from batman import dispatcher
-from batman.modules.sql import BASE, SESSION
+from batman.modules.sql.users_sql.py import BASE, SESSION
 
 
 class Users(BASE):
