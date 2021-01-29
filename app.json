@@ -1,4 +1,4 @@
-  
+
 {
       "name": "Batman",
       "description": "A themed Telegram group management bot.",
@@ -63,10 +63,10 @@
          "required": true,
          "value": "-123456798"
       },      
-      "CASH_API_KEY": {
-         "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
+      "WHITELIST_USERS": {
+         "description": "Required for getting percaused via get ban from others",
          "required": true,
-         "value": "-xyz"
+         "value": ""
       },
       "WALL_API": {
          "description": "Required Get yours from acoder",
