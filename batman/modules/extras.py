@@ -267,7 +267,7 @@ __help__ = """
  - /roll : Roll a dice.
  - /rlg : Join ears,nose,mouth and create an emo ;-;
  - /zal <any text> : zalgofy! your text
- - /truth : Bot says truth that you have to accept.
+ - /truth : Bot gives you question in which you have answer without saying lie.
  - /dare : Bot gives you dares to do.
  Lyrics Plugin will take some more time to come up.
 """
