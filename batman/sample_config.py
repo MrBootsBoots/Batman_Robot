@@ -15,7 +15,6 @@ class Config(object):
     OWNER_USERNAME = "I_Am_An_PRINCES"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = None  # needed for any database modules
     MESSAGE_DUMP = '-1001410340369'  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
