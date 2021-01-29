@@ -60,7 +60,7 @@ if ENV:
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', False))
 
 else:
-    from batman.sample_config import Development as Config
+    from tg_bot.config import Development as Config
     TOKEN = Config.API_KEY
     try:
         OWNER_ID = int(Config.OWNER_ID)
@@ -90,6 +90,7 @@ else:
     PORT = Config.PORT
     CERT_PATH = Config.CERT_PATH
 
+    DB_URI = Config.SQLALCHEMY_DATABASE_URI
     DONATION_LINK = Config.DONATION_LINK
     LOAD = Config.LOAD
     NO_LOAD = Config.NO_LOAD
@@ -99,8 +100,6 @@ else:
     BAN_STICKER = Config.BAN_STICKER
     ALLOW_EXCL = Config.ALLOW_EXCL
     STRICT_GMUTE = Config.STRICT_GMUTE
-    WALL_API = Config.WALL_API
-    AI_API_KEY = Config.AI_API_KEY
    
 
 SUDO_USERS.add(OWNER_ID)
