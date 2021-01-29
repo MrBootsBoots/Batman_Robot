@@ -1,14 +1,15 @@
+  
 {
-      "name": "Batman",
-      "description": "A themed Telegram group management bot.",
+      "name": "SaitamaRobot",
+      "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Batman"
+         "Saitama"
       ],   
-   "repository": "https://github.com/MrBootsBoots/Batman_Robot",
+   "repository": "https://github.com/AnimeKaizoku/SaitamaRobot",
    "addons": [
       {
          "options": {
@@ -20,6 +21,16 @@
    "env": {
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": ""
+      },
+      "SUDO_USERS": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },
+      "SUPPORT_USERS": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": ""
       },    
@@ -35,7 +46,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "I_Am_An_PRINCES"
+         "value": "I_am_an_princes"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
@@ -52,9 +63,54 @@
          "required": true,
          "value": "-123456798"
       },      
+      "CASH_API_KEY": {
+         "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
+         "required": true,
+         "value": "-xyz"
+      },
+      "WALL_API": {
+         "description": "Required Get yours from acoder",
+         "required": true,
+         "value": "-xyz"
+      },
+      "DEV_USERS": {
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
+         "required": false,
+         "value": "660565862 459034222 189005567 346981140 367222759"
+      },
+      "sw_api": {
+         "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
+         "required": false,
+         "value": ""
+      }, 
+     "REDIS URI": {
+         "description": "Redis Url Get one from redislabs.com.",
+         "required": true,
+         "value": ""
+      }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
          "value": "True"
+      },
+      "DRAGONS": {
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "required": false,
+         "value": "459034222 189005567 660565862 346981140 367222759"
+      },
+      "DEMONS": {
+         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+         "required": false,
+         "value": "615304572"
+      },
+      "TIGERS": {
+         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
+         "required": false,
+         "value": ""
+      },
+      "WOLVES": {
+         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+         "required": false,
+         "value": ""
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -68,7 +124,7 @@
       "PORT": {
          "description": "Port to use for your webhooks. Better leave this as it is on heroku",
          "required": false,
-         "value": "8849"
+         "value": ""
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
@@ -92,22 +148,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://"
-      },
-      "SUPPORT_USERS": {
-         "description": "Get id of your user via @showjsonbot"
-         "required": false,
-         "value": ""
-      },
-      "SUDO_USERS": {
-         "description": "Get id of your user via @showjsonbot"
-         "required": true,
-         "value": ""
-      },
-      "WALL_API": {
-         "description": "Get api from acoder"
-         "required": false,
-         "value": ""
+         "value": "https://www.paypal.me/PaulSonOfLars"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
