@@ -16,11 +16,11 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'mysql80-afe9.euw2.cloud.ametnes.com'  # needed for any database modules
-    MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
+    MESSAGE_DUMP = '-1001410340369'  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
     WEBHOOK = False
-    URL = None
+    URL = 'https://batman-robot.herokuapp.com'
 
     # OPTIONAL
     SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
