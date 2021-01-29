@@ -37,6 +37,7 @@ class Config(object):
     STRICT_GMUTE = True
     STRICT_GBAN = True
     WALL_API = '75de53c034d94bba532321b4fcbb4943'
+    AI_API_KEY = '4d12b1129a21dcd4d828b128bd28df83253865a8b9c8b0926037db9614720118d88b5082deed4afd444abb26e581cef44ab840e613dcd14aa358a7185895c9b3'
 
 class Production(Config):
     LOGGER = False
