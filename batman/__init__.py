@@ -101,6 +101,7 @@ else:
     ALLOW_EXCL = Config.ALLOW_EXCL
     STRICT_GMUTE = Config.STRICT_GMUTE
     WALL_API = Config.WALL_API
+    AI_API_KEY = Config.AI_API_KEY
    
 
 SUDO_USERS.add(OWNER_ID)
