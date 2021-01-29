@@ -1,1 +1,1 @@
-web: python3 -m batman
+worker: python3 -m batman
