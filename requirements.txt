@@ -30,3 +30,4 @@ markdown2
 tswift
 PickleDB
 youtube-dl
+fontTools
