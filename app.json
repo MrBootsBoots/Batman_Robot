@@ -101,7 +101,7 @@
       },
       "SUDO_USERS": {
          "description": "Get id of your user via @showjsonbot"
-         "required": True
+         "required": true
          "value": ""
       },
       "WALL_API": {
