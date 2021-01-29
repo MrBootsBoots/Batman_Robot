@@ -69,7 +69,7 @@
     },
     "AI_API_KEY": {
       "description": "Ai api key get from coffeehouse"
-      "value": ""
+      "value": "d3hjaann"
    },
     "ALLOW_EXCL": {
       "description": "Whether to allow using exclamation marks ! for commands as well as /.",
