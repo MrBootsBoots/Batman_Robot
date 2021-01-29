@@ -24,5 +24,4 @@ class Development(Config):
     ALLOW_EXCL = 'True'
     SUPPORT_CHAT = 'DragonAssociationSupport'
     WALL_API = '75de53c034d94bba532321b4fcbb4943'
-    BL_CHATS = 
-    
+    BL_CHATS = '-1001362887936'
